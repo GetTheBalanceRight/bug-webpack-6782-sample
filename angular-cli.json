@@ -1,0 +1,33 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "name": "6782-sample"
+    },
+    "apps": [{
+        "root": "src",
+        "outDir": "dist",
+        "assets": [
+            "assets",
+            "robots.txt"
+        ],
+        "index": "index.html",
+        "main": "main.ts",
+        "polyfills": "polyfills.ts",
+        "tsconfig": "tsconfig.json",
+        "prefix": "app",
+        "styles": [
+            "styles.css"
+        ],
+        "scripts": [
+
+        ],
+        "environmentSource": "environments/environment.ts",
+        "environments": {
+            "dev": "environments/environment.ts"
+        }
+    }],
+    "defaults": {
+        "styleExt": "css",
+        "component": {}
+    }
+}
